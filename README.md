@@ -162,11 +162,11 @@ Install [MinGW](http://www.mingw.org/) ([installer](http://sourceforge.net/proje
 `mingw32-make all`
 
 Downloads
-[v1.0.8 - Win32](https://adamcaudill.com/files/ccsrch-1.0.8-win32.zip)
-[v1.0.8 - OSX-Intel-64]
-[v1.0.8b1 - Win32]
-[v1.0.7 - Win32]
-[v1.0.6 - Win32]
+* [v1.0.8 - Win32](https://adamcaudill.com/files/ccsrch-1.0.8-win32.zip)
+* [v1.0.8 - OSX-Intel-64](https://adamcaudill.com/files/ccsrch-1.0.8-osx_intel.zip)
+* [v1.0.8b1 - Win32](https://adamcaudill.com/files/ccsrch-1.0.8beta1.zip)
+* [v1.0.7 - Win32](https://adamcaudill.com/files/ccsrch-1.0.7.zip)
+* [v1.0.6 - Win32](https://adamcaudill.com/files/ccsrch-1.0.6.zip)
 
 ### License
 
