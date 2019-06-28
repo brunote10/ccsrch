@@ -1,7 +1,5 @@
 # CCSRCH
 
-[![Build Status](https://travis-ci.org/adamcaudill/ccsrch.svg?branch=master)](https://travis-ci.org/adamcaudill/ccsrch)
-
 CCSRCH is a cross-platform tool for searching filesystems for credit card information.
 
 ### Copyright
@@ -78,14 +76,14 @@ All output is tab delimited with the following order (depending on the parameter
 
 ### Assumptions
 
-The following assumptions are made throughout the program searching for the 
-card numbers:
+Las siguientes suposiciones se hacen a lo largo del programa buscando el
+números de tarjeta:
 
-1. Cards can be a minimum of 14 numbers and up to 16 numbers.
-2. Card numbers must be contiguous. The only characters ignored when processing the files are dashes, carriage returns, new line feeds, and nulls.
-3. Files are treated as raw binary objects and processed one character at a time.
-4. Solo and Switch cards are not processed in the prefix search.
-5. Compressed or encoded files are NOT uncompressed or decoded in this version. These files should be identified separately and the program run on the decompressed or decoded versions.
+1. Las tarjetas pueden tener un mínimo de 14 números y hasta 16 números.
+2. Los números de las tarjetas deben ser contiguos. Los únicos caracteres que se ignoran al procesar los archivos son guiones, retornos de carro, nuevos avances de línea y nulos.
+3. Los archivos se tratan como objetos binarios sin procesar y se procesan un carácter a la vez.
+4. Las tarjetas Solo y Switch no se procesan en la búsqueda de prefijo.
+5. Los archivos comprimidos o codificados NO se descomprimen o decodifican en esta versión. Estos archivos deben identificarse por separado y el programa se ejecuta en las versiones descomprimidas o decodificadas.
 
 **Prefix Logic**  
 The following prefixes are used to validate the potential card numbers that have passed the mod 10 (Luhn) algorithm check.
