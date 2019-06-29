@@ -92,7 +92,7 @@ static void mask_pan(char *s)
   int j;
 
   for (j=0; s[j]!='\0'; j++) {
-    if (j > 3 && j < strlen(s) - 6)
+    if (j > 5 && j < strlen(s) - 4)
       s[j] = '*';
   }
 }
